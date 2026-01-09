@@ -25,5 +25,5 @@ driver = webdriver.Chrome(options=options)
 driver.get("https://www.google.com/")
 
 driver.find_element(By.ID, "APjFqb").send_keys("Best practices in software testing")
-driver.find_element(By.NAME,"btnK").click()
-# driver.find_element(By.CLASS_NAME,"gNO89b").submit()
+# driver.find_element(By.NAME,"btnK").click()
+driver.find_element(By.CLASS_NAME,"gNO89b").submit()
